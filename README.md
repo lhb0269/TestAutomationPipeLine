@@ -241,7 +241,8 @@ Playwright MCP를 활용하여 웹 애플리케이션의 테스트 케이스를 
 </details>
 
 <details>
-<summary>Test Case</summary> <img width="2005" height="1075" alt="image" src="https://github.com/user-attachments/assets/1e8b8c1b-b3b6-4eda-aa10-fc4ef3a8a43c" />
+<summary>Test Case</summary> <img width="1825" height="1080" alt="image" src="https://github.com/user-attachments/assets/03c54cf5-19de-40d2-8d5f-c18201cfc3f3" />
+
 </details>
 
 <details>
