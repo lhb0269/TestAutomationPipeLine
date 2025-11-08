@@ -1,0 +1,37 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir)",
+      "Bash(ls:*)",
+      "Bash(cat:*)",
+      "Bash(uv:*)",
+      "Bash(source:*)",
+      "Bash(npm run lint)",
+      "Bash(npm run test:*)",
+      "Bash(steamlit:*)",
+      "Read(~/.zshrc)",
+      "Bash(playwright:*)",
+      "mcp__playwright",
+      "mcp__context7",
+      "WebFetch(domain:m.albamon.com)",
+      "WebSearch",
+      "Bash(python:*)",
+      "Bash(pip install:*)",
+      "Bash(npm init:*)",
+      "Bash(npm install)",
+      "Bash(npm install:*)",
+      "Bash(npx playwright install:*)",
+      "Bash(npx playwright install:*)",
+      "Bash(mkdir:*)",
+      "Bash(node:*)",
+      "Bash(move \"Docs\\website-analyzed.md\" \"Docs\\analysis\"\")",
+      "Bash(powershell:*)",
+      "WebFetch(domain:fconline.nexon.com)",
+      "WebFetch(domain:nxlogin.nexon.com)",
+      "WebFetch(domain:www.nexon.com)",
+      "Bash(npm:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

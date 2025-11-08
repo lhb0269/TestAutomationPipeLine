@@ -1,0 +1,15 @@
+{
+  "name": "albamon-login-test-automation",
+  "version": "1.0.0",
+  "description": "알바몬 로그인 페이지 테스트 자동화",
+  "main": "tc003_login_form_input_validation.js",
+  "scripts": {
+    "test:tc003": "node tc003_login_form_input_validation.js",
+    "install-playwright": "npx playwright install"
+  },
+  "dependencies": {
+    "playwright": "^1.40.0"
+  },
+  "author": "AI Test Automation",
+  "license": "MIT"
+}
