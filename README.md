@@ -602,7 +602,7 @@ Claude Commands와 Playwright MCP를 사용한다면 개발 및 환경구축 시
 
 
 보고서 작성
-* 테스트 스크립트를 병렬적으로 수행하고 결과 및 상세 메트릭을 기록한 보고서 작성
+* 테스트 스크립트를 수행하고 결과 및 상세 메트릭을 기록한 보고서 작성
   <details>
     <summary>Report</summary>
     <pre>
