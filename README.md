@@ -7,13 +7,34 @@ AI로 TC를 작성하여 TC기반 자동화 테스트 스크립트 작성 후 �
 <br />
 Claude Code를 사용하였으며 PlayWright로 테스트 스크립트를 작성했습니다.
 
+### Claude 선정 이유
+Claude Commands와 Playwright MCP를 사용한다면 개발 및 환경구축 시간을 단축할 수 있으리라 판단하였고<br />
+[Claude Code Templates - Generate Test Cases](https://www.aitmpl.com/component/command/generate-test-cases) <br />
+위 커맨드를 커스터마이징하여 지정된 웹 사이트의 로그인 기능에 대한 Test Case를 작성하였습니다.<br />
+그리고 Claude Code의 서브 에이전트 기능을 활용해 테스트 케이스를 보고 PlaywrightMCP로 실행 및 분석하는 에이전트를 생성하여<br />
+테스트 스크립트 작성 및 실행 과정과 결과 및 분석 보고서를 확인할 수 있었습니다.
+
+원래 계획은 이 서브 에이전트들을 병렬적으로 수행해 동시에 여러개의 Test Case의 스크립트 작성을 수행하는것이 목표였으나<br />
+각기 다른 파일 이름,보고서 양식과 같은 문제가 발생하였습니다.<br />
+이는 서브 에이전트.md 파일에 문서 작성 규칙을 추가하여 문제를 해결할 수 있었습니다.<br />
+
 <br /><br /><br />
 ## 📚Stack
-<img src="https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=Claude&logoColor=white"> <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"> <img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=black"> 
+
+### AI
+<img src="https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=Claude&logoColor=white"><br />
+
+### Laungauge
+<img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"> <img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=black"> <br />
 <br /><br /><br />
 
 
+## 실행 가이드
+해당 프로젝트를 실행하기 위해선 playwright를 실행할 수 있는 환경이 갖추어져야 합니다.<br />
+개인적으로 cluade code를 사용하길 권장합니다.<br />
+문서내 작성된 테스트 계정 정보는 임의로 삭제되었습니다.(로그인 정상 케이스와 같은 스크립트에 테스트 계정을 넣어야 실행이 가능합니다.)<br />
 
+<br /><br /><br />
 
 ## 과정
 웹 페이지 분석
